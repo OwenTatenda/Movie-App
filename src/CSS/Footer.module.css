@@ -1,0 +1,62 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  background-color: rgb(26, 26, 72);
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.name {
+  justify-self: center;
+}
+
+.app-name {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.icon {
+  color: red;
+}
+
+.all-links {
+  align-self: center;
+  width: 900px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2rem;
+}
+
+.container-1 {
+  grid-column: 1/2;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  grid-column: 2/3;
+}
+.container-3 {
+  display: flex;
+  flex-direction: column;
+  grid-column: 3/4;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 10px;
+  transition: color 1s;
+  transition: font-size 1s;
+}
+
+.link:hover {
+  font-size: 25px;
+  color: rgb(179, 18, 10);
+}

@@ -1,0 +1,42 @@
+.trending-section {
+  padding: 10px 80px;
+}
+
+.top-div {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  position: relative;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.link {
+  position: absolute;
+  right: 1px;
+  top: 8px;
+  font-weight: lighter;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  border: 2px solid white;
+  box-sizing: border-box;
+  padding: 5px 28px;
+  margin-right: 100px;
+  border-radius: 12px;
+  transition: color 1s;
+  transition: background-color 1s;
+}
+
+.link:hover {
+  background-color: red;
+  color: white;
+  border: none;
+}

@@ -1,0 +1,55 @@
+.item {
+  width: 200px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+}
+
+.movie-name {
+  color: white;
+  z-index: 100;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.icon {
+  color: white;
+  position: absolute;
+  top: 120px;
+  left: 100px;
+  font-size: 40px;
+  z-index: 100;
+  color: red;
+  visibility: hidden;
+}
+
+.item:hover > .icon {
+  visibility: visible;
+}
+
+.backdrop {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.8;
+  visibility: hidden;
+}
+
+.item:hover > .backdrop {
+  visibility: visible;
+}
+
+.img-poster {
+  box-shadow: 0px 2px wheat;
+  width: 200px;
+  border-radius: 12px;
+  object-fit: cover;
+}
